@@ -1,5 +1,7 @@
 package org.fasttrackit;
 
+import java.util.Arrays;
+
 public class Math {
 
     public double addition(double firstNr, double secondNr) { // Adunare
@@ -61,5 +63,14 @@ public class Math {
         System.out.println("Rezultatul impartirii este : " + total);
         return total;
     }
-
+//WORD COUNTER
+    public static int count(String sentence) {
+        if (sentence == null || sentence.isEmpty()) {
+            return 0;
+        }
+        String[] words = sentence.split("\\s+");
+        System.out.println("Words counted : " + words.length);
+        return words.length;
+    }
+//WORD COUNTER
 }

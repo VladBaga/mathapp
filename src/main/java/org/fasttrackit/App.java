@@ -18,5 +18,7 @@ public class App
         math.subtraction(176, -94);
         math.multipy(333, -333);
         math.divide(12, -1);
+
+        math.count("Caca da nu  2spatii   3spatii");
     }
 }
