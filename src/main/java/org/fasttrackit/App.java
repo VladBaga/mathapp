@@ -19,6 +19,6 @@ public class App
         math.multipy(333, -333);
         math.divide(12, -1);
 
-        math.count("Caca da nu  2spatii   3spatii");
+        math.count("Word counter functioneaza    chiar      si cu mai multe spatii");
     }
 }
